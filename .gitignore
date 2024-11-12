@@ -12,7 +12,7 @@ nupkg/
 .idea/
 
 # Visual Studio
-.vs/
+.vs
 
 # Fleet
 .fleet/
@@ -25,6 +25,13 @@ nupkg/
 *.user
 *.userosscache
 *.sln.docstates
+
+# binary output
+obj/
+bin/
+
+#Test Result
+TestResults/
 
 # Build results
 [Dd]ebug/
